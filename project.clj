@@ -12,7 +12,8 @@
                  [clj-oauth "1.5.2"]
                  [slingshot "0.12.2"]
                  [cheshire "5.4.0"]
-                 [environ "1.0.0"]]
+                 [environ "1.0.0"]
+                 [javax.servlet/servlet-api "2.5"]]
   :plugins [[lein-ring "0.8.13"]]
   
   ; Ring
