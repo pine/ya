@@ -1,6 +1,9 @@
-(ns ya.server)
+(ns ya.server
+  (:require
+    [environ.core :refer [env]]))
 
-(def scheme "http")
+(def scheme (env :server-scheme))
+(def hostname (env :server-hostname))
 
 ; 末尾に / を付けないこと
-(def host (str scheme "://127.0.0.1"))
+(def uri (str scheme "://" hostname))

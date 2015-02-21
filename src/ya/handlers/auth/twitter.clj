@@ -15,7 +15,7 @@
 
 (def ^:private consumer-token (env :twitter-consumer-token))
 (def ^:private consumer-token-secret (env :twitter-consumer-token-secret))
-(def ^:private callback-uri (str server/host path/twitter-callback))
+(def ^:private callback-uri (str server/uri path/twitter-callback))
 
 (if-not consumer-token
   (.println *err* "環境変数 twitter-consumer-token が設定されていません。"))
