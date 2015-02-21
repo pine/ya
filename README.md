@@ -5,7 +5,7 @@ ya
 
 **CAUTION!! EXPERIMENTAL REPOSITORY**
 
-ya is yurie's server-side application written in Clojure.
+ya is [yurie](https://github.com/pine613/yurie)'s server-side application written in Clojure.
 
 ## Prerequisites
 
