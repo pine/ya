@@ -1,5 +1,7 @@
 ya
 ------
+[![Build Status](https://travis-ci.org/pine613/ya.svg?branch=master)](https://travis-ci.org/pine613/ya)
+[![Dependencies Status](http://jarkeeper.com/pine613/ya/status.svg)](http://jarkeeper.com/pine613/ya)
 
 **CAUTION!! EXPERIMENTAL REPOSITORY**
 
@@ -25,6 +27,7 @@ $ export TWITTER_CONSUMER_TOKEN=[Twitter Consumer Token]
 $ export TWITTER_CONSUMER_TOKEN_SECRET=[Twitter Consumer Token Secret]
 $ lein ring server-headless
 ```
+
 
 
 ## License
