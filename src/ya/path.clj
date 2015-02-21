@@ -1,4 +1,4 @@
 (ns ya.path)
 
-(def twitter-callback "/auth_callback.html")
-(def loggedin "/loggedin.html")
+(def twitter-callback "/")
+(def loggedin "/?status=loggedin")
