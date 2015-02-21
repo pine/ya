@@ -1,6 +1,6 @@
 (defproject ya "0.1.0-SNAPSHOT"
   :description "ya is yurie's server-side application written in Clojure."
-  :url "https://github.com/pine613/yurie"
+  :url "https://github.com/pine613/ya"
   :min-lein-version "2.0.0"
   
   :dependencies [[org.clojure/clojure "1.6.0"]
