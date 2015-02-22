@@ -24,12 +24,19 @@ ya is [yurie](https://github.com/pine613/yurie)'s server-side application writte
 To start a web server for the application, run:
 
 ```sh
+$ export SERVER_HOST_NAME=[Hostname]
+$ export SERVER_SCHEME=http
 $ export TWITTER_CONSUMER_TOKEN=[Twitter Consumer Token]
 $ export TWITTER_CONSUMER_TOKEN_SECRET=[Twitter Consumer Token Secret]
 $ lein ring server-headless
 ```
 
+## Building
 
+```sh
+$ lein ring uberjar
+$ java -jar target/ya-standalone.jar
+```
 
 ## License
 MIT License<br />
