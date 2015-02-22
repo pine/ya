@@ -1,6 +1,7 @@
 ya
 ------
 [![Build Status](https://travis-ci.org/pine613/ya.svg?branch=master)](https://travis-ci.org/pine613/ya)
+[![Build Status](https://drone.io/github.com/pine613/ya/status.png)](https://drone.io/github.com/pine613/ya/latest)
 [![Dependencies Status](http://jarkeeper.com/pine613/ya/status.svg)](http://jarkeeper.com/pine613/ya)
 
 **CAUTION!! EXPERIMENTAL REPOSITORY**

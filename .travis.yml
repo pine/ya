@@ -4,5 +4,4 @@ script:
   - lein2 test
 
 jdk:
-  - oraclejdk7
-  - oraclejdk8
+  - openjdk7
